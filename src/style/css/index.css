@@ -9,4 +9,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+header {
+  background-color: var(--bs-gray-700);
+}
+header h1.navbar-brand {
+  font-size: 2em;
+  margin-left: 10%;
+  text-align: center;
+  color: white;
+}
+header .navbar-nav {
+  width: 100%;
+  justify-content: space-evenly;
+}
+header a.nav-link {
+  transition: color 0.6s ease-in-out;
+}
+header a.nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+footer .icone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2% 0%;
+  position: relative;
+}
+footer .icone > img {
+  width: 100px;
+  transition: transform 0.6s ease-in-out;
+}
+footer .icone > img:hover {
+  transform: rotate(1turn);
+}
+footer .icone > a {
+  color: black;
+}
+
+.img {
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+section {
+  margin: 2% 0%;
+}
+section > .row > div {
+  justify-content: center;
+  align-items: center;
+}
+section p {
+  text-align: justify;
+}
+
 /*# sourceMappingURL=index.css.map */
